@@ -1,18 +1,29 @@
+:root {
+  --bt-blue:#051169;
+  --bt-blue-dark:#000000;
+  --bt-gold:#f2c53f;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", Arial, sans-serif;
+  background: #000;
+}
+
 .eligibility-box {
-  background: radial-gradient(circle at top, #051169 0%, #000000 85%);
+  background: radial-gradient(circle at top, var(--bt-blue) 0%, #000000 85%);
   color: #fff;
   padding: 2rem;
   border-radius: 18px;
   max-width: 450px;
   margin: 2rem auto;
   text-align: center;
-  font-family: "Lato", Arial, sans-serif;
 }
 
 .eligibility-title {
   font-size: 1.6rem;
   font-weight: 800;
-  color: #f2c53f;
+  color: var(--bt-gold);
   margin-bottom: 1rem;
 }
 
@@ -26,7 +37,7 @@
   display: block;
   margin: 12px auto;
   padding: 12px 20px;
-  background: #f2c53f;
+  background: var(--bt-gold);
   color: #000;
   font-size: 1rem;
   font-weight: 700;
